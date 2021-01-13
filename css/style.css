@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+.header {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    width: 100%;
+}
+
+.header>ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.header-item>li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+.header-item {
+    list-style-type: none;
+    display: inline-block;
+    line-height: 80px;
+    color: #0082e6;
+}
+
+.header-item>li>a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 0.3em 4em;
+    border-radius: 3px;
+    float: left;
+    text-decoration: none;
+}
+
+a.active,
+a:hover {
+    background: #1b9bff;
+    transition: 0.5s;
+}
+
+.home {
+    padding-top: 70px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-mail-head {
+    font-weight: bold;
+}
+
+.left>img {
+    width: 100%;
+    height: 100%;
+    padding: 3em;
+}
+
+.right {
+    width: auto;
+    padding-left: 5em;
+}
+
+.right>h5 {
+    color: black;
+    border: black;
+    background-origin: padding-box;
+}
+
+.right>h1 {
+    font-size: 4rem;
+    color: #1b9bff
+}
+
+.about {
+    background-color: #eeeeee;
+    height: 25em;
+}
+
+.brief-description {
+    text-align: center;
+    margin: 25px;
+}
+
+.about-heading {
+    color: black;
+    margin: 26px;
+    text-align: center;
+}
+
+.Skills span {
+    text-transform: uppercase;
+    padding: 8px 9em;
+    margin: 0px 14px;
+    background-color: white;
+}
+
+.hobbies span {
+    text-transform: uppercase;
+    padding: 10px 11em;
+    margin: 0px 23px;
+    background-color: white;
+}
+
+.goal {
+    text-align: center;
+}
+
+.email {
+    background-color: #eeeeee;
+    text-align: center;
+    float: right;
+    width: 26%;
+    margin: 23px;
+}
+
+.address {
+    background-color: #eeeeee;
+    text-align: center;
+    float: left;
+    width: 26%;
+    margin: 23px;
+}
+
+.contact {
+    background-color: #eeeeee;
+}
+
+.project {
+    background-color: #eeeeee;
+    text-align: center;
+    font-size: 30px;
+}
+
+.projects {
+    clear: both;
+}
+
+.port {
+    background-color: #eeeeee;
+    text-align: center;
+    float: left;
+    width: 30%;
+    margin: 40px;
+    margin-left: 190px;
+}
+
+.covid {
+    background-color: #eeeeee;
+    text-align: center;
+    float: right;
+    width: 30%;
+    margin: 40px;
+    margin-right: 190px;
+}
